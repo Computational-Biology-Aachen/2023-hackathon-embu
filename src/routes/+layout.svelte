@@ -33,7 +33,7 @@
     name="twitter:card"
     content="summary"
   />
-  <title>Embu Hackathon</title>
+  <title>2023 Embu Hackathon</title>
   <link
     rel="icon"
     href={favicon}
