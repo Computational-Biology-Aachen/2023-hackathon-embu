@@ -9,6 +9,7 @@
 
 <!-- SEO -->
 <svelte:head>
+  <title>2023 Embu Hackathon</title>
   <meta
     name="description"
     content={config.description}
