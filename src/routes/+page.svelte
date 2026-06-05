@@ -4,7 +4,6 @@
     Button,
     H2,
     Hero,
-    Imprint,
     Italic,
     Li,
     Link,
@@ -142,10 +141,6 @@
   </Text>
   <Text>We wish you all the best in your application.</Text>
 </Section>
-
-<Imprint
-  github="https://github.com/Computational-Biology-Aachen/2023-hackathon-embu"
-/>
 
 <style>
   .hero-title {

@@ -1,7 +1,7 @@
 <script lang="ts">
   import favicon from "$lib/assets/logos/cpbl-favicon.svg";
   import * as config from "$lib/config";
-  import { Navbar, NavGH } from "@computational-biology-aachen/design";
+  import { Imprint, Navbar, NavGH } from "@computational-biology-aachen/design";
   import "../app.css";
 
   let { children } = $props();
@@ -50,6 +50,10 @@
 </Navbar>
 
 {@render children()}
+
+<Imprint
+  github="https://github.com/Computational-Biology-Aachen/2023-hackathon-embu"
+/>
 
 <style>
   .brand {
