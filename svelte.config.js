@@ -29,7 +29,7 @@ const config = {
       },
     },
     paths: {
-      base: process.argv.includes("dev") ? "" : "/2022-hackathon-watamu",
+      base: process.argv.includes("dev") ? "" : "/2023-hackathon-embu",
     },
   },
   preprocess: [mdsvex({ extensions: [".svx", ".md"] })],
