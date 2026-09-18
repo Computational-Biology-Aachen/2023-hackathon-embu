@@ -3,7 +3,8 @@ import { mdsvex } from "mdsvex";
 
 import { existsSync } from "fs";
 
-const designSrc = new URL("../design/src/lib", import.meta.url).pathname;
+const designSrc = new URL("../../pkg-js/design/src/lib", import.meta.url)
+  .pathname;
 const workspaceAlias = existsSync(designSrc)
   ? { "@computational-biology-aachen/design": designSrc }
   : {};
