@@ -12,7 +12,7 @@
     Ul,
   } from "@computational-biology-aachen/design";
 
-  import group from "$lib/assets/group.jpg";
+  import group from "#lib/assets/group.jpg";
 </script>
 
 <svelte:head>
